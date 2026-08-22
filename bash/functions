@@ -1,0 +1,5 @@
+if [ -d ~/.local/share/bash/fns ]; then
+  for f in ~/.local/share/bash/fns/*; do
+    [ -f "$f" ] && source "$f"
+  done
+fi
