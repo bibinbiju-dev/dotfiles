@@ -91,7 +91,8 @@ source .venv/bin/activate #alias sv in .bashrc
 
 ```bash
 pip install --upgrade pip #run these inside .venv viva terminal
-pip install pynvim
+pip install numpy # for numpy
+#pip install pynvim # i don't need this in each .venv of very project pyright and pip will handle the completion i only need pynvim when something is specifically using neovim's python provider. pynvim is needed to extend/control neovim like a plugin using python
 ```
 
  <!-- NOTE: -->: even if i use mise or not if i follow first method then i should install each package like numpy viva pip into the .venv viva terminal
@@ -135,7 +136,7 @@ pip install numpy # install INSIDE .venv
 
 ---
 
-## Method 2 — `mise` Workflow
+## mise Workflow
 
 ---
 
